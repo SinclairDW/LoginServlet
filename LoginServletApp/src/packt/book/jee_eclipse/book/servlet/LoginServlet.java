@@ -15,6 +15,7 @@ public class LoginServlet extends HttpServlet {
         super();
     }
 
+    // verifying that this push actually works
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		response.setContentType("text/html");
